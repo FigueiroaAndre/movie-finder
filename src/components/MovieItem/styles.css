@@ -1,0 +1,38 @@
+.itemContainer {
+    background: rgba(51,51,51,0.9);
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.itemContainer img {
+    width: 300px;
+    height: 444px;
+}
+
+.itemContainer h1 {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 5px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.itemContainer a {
+    text-decoration: none;
+    justify-self: flex-start;
+}
+
+.itemContainer a button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.itemContainer a button svg {
+    margin-left: 5px;
+}

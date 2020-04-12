@@ -1,0 +1,11 @@
+.searchContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20vh auto 0 auto;
+}
+
+@media only screen and (max-width: 769px) {
+    .searchContainer {
+        margin-top: 5vh;
+    }
+}

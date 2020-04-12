@@ -1,0 +1,19 @@
+.moviesListContainer {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .moviesListContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .moviesListContainer {
+        grid-template-columns: 1fr;
+    }
+}

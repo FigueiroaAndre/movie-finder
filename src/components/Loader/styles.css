@@ -1,0 +1,11 @@
+.loader {
+    display: block;
+    margin: 0 auto;
+    animation: 2s spinning infinite linear;
+}
+
+@keyframes spinning {
+    to {
+        transform: rotate(360deg);
+    }
+}
