@@ -21,7 +21,7 @@ export default function(props){
             setLoading(false);
         }
         getData();
-    },[]);
+    },[props.match.params.id]);
 
     console.log(movieInfo);
 

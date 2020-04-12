@@ -11,7 +11,7 @@ export const ROUTES = {
 
 export default function Routes(){
     return (
-        <Router >
+        <Router basename="/movie-finder">
             <Switch >
                 <Route path={ROUTES.HOME} exact >
                     <Redirect to={ROUTES.SEARCH} />
