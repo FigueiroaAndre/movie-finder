@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Search from './pages/Search';
 import MovieInfo from './pages/MovieInfo';
 
@@ -11,7 +11,7 @@ export const ROUTES = {
 
 export default function Routes(){
     return (
-        <Router basename="/movie-finder">
+        <Router >
             <Switch >
                 <Route path={ROUTES.HOME} exact >
                     <Redirect to={ROUTES.SEARCH} />
