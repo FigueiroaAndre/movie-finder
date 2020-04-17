@@ -6,9 +6,11 @@ Completed
 Live version: https://figueiroaandre.github.io/movie-finder/search
 
 ## Mobile View
-<img src="./screenshots/home_mobile.png" class="mobile">
-<img src="./screenshots/search_mobile.png" class="mobile">
-<img src="./screenshots/info_mobile.png" class="mobile">
+<div class="mobile_div">
+    <img src="./screenshots/home_mobile.png" class="mobile">
+    <img src="./screenshots/search_mobile.png" class="mobile">
+    <img src="./screenshots/info_mobile.png" class="mobile">
+</div>
 
 ## Desktop View
 <img src="./screenshots/home_desktop.png" class="desktop">
@@ -46,6 +48,12 @@ This is the first project, using react, that i'll develop alone. That's being sa
 4. Commit changes more frequently (instead of commit everything at once like i did with this project)
 
 <style>
+.mobile_div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
 .mobile {
     width: 180px;
     height: 320px;
@@ -54,5 +62,7 @@ This is the first project, using react, that i'll develop alone. That's being sa
 .desktop {
     width: 384px;
     height: 216px;
+    display: block;
+    margin: 10px auto;
 }
 </style>
