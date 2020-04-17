@@ -46,23 +46,3 @@ This is the first project, using react, that i'll develop alone. That's being sa
 2. Build an application that has a database, using MySQL
 3. Build an application that has tests, probably using jest
 4. Commit changes more frequently (instead of commit everything at once like i did with this project)
-
-<style>
-.mobile_div {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-
-}
-.mobile {
-    width: 180px;
-    height: 320px;
-}
-
-.desktop {
-    width: 384px;
-    height: 216px;
-    display: block;
-    margin: 10px auto;
-}
-</style>
