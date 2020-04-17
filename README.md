@@ -5,6 +5,16 @@ This project is a *Movie Finder* written in [React JS](https://reactjs.org/) and
 Completed
 Live version: https://figueiroaandre.github.io/movie-finder/search
 
+## Mobile View
+<img src="./screenshots/home_mobile.png" class="mobile">
+<img src="./screenshots/search_mobile.png" class="mobile">
+<img src="./screenshots/info_mobile.png" class="mobile">
+
+## Desktop View
+<img src="./screenshots/home_desktop.png" class="desktop">
+<img src="./screenshots/search_desktop.png" class="desktop">
+<img src="./screenshots/info_desktop.png" class="desktop">
+
 ## Goals
 This is the first project, using react, that i'll develop alone. That's being said, the main goal of this project is practice with the React and use an external api.
 
@@ -34,3 +44,15 @@ This is the first project, using react, that i'll develop alone. That's being sa
 2. Build an application that has a database, using MySQL
 3. Build an application that has tests, probably using jest
 4. Commit changes more frequently (instead of commit everything at once like i did with this project)
+
+<style>
+.mobile {
+    width: 180px;
+    height: 320px;
+}
+
+.desktop {
+    width: 384px;
+    height: 216px;
+}
+</style>
