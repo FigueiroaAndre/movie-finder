@@ -40,9 +40,3 @@ This is the first project, using react, that i'll develop alone. That's being sa
 6. **Folder Structure** - A organized folder/file structure helped a lot to understand the project as a whole
 
 7. **Deploy a React APP in Githun pages** - I learned how to deploy a React App that uses React-Router-Dom into Github pages
-
-## Future Work
-1. Build an application that has a backend, using nodeJS
-2. Build an application that has a database, using MySQL
-3. Build an application that has tests, probably using jest
-4. Commit changes more frequently (instead of commit everything at once like i did with this project)
