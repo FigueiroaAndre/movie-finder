@@ -3,7 +3,7 @@ This project is a *Movie Finder* written in [React JS](https://reactjs.org/) and
 
 ## Project Status
 Completed
-Live version: https://figueiroaandre.github.io/movie-finder/search
+Live version: https://figueiroaandre.github.io/movie-finder
 
 ## Mobile View
 <div class="mobile_div">
